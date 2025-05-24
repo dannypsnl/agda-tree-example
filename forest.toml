@@ -1,4 +1,4 @@
 [forest]
 trees = ["trees", "quark/trees"]                   # The directories in which your trees are stored
-assets = ["quark/html"]                  # The directories in which your assets are stored
+assets = ["assets", "quark/html"]                  # The directories in which your assets are stored
 theme = "theme"                      # The directory in which your theme is stored

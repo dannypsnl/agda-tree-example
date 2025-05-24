@@ -1,6 +1,6 @@
 # Literate agda for forester
 
-The repository use `forester` v4.3.1, produced by command `forester init`
+Instructions for `forester` v4.3.1, initial repository produced by command `forester init`.
 
 ## Steps
 
@@ -15,10 +15,13 @@ Back to root of the repository
 
 * modify `forest.toml`, add `quark/trees` to `trees`
 * modify `forest.toml`, add `quark/html` to `assets`
-* modify `theme/tree.xsl`
+* modify `theme/tree.xsl` (see below)
+* run `forester build`
+* open `quark/bool.xml` in your browser
 
-## Modify to `tree.xsl`
+## Modification to `tree.xsl`
 
+Link the Agda style as follows:
 ```diff
        <head>
          <meta name="viewport" content="width=device-width" />

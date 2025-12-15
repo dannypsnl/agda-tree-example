@@ -1,0 +1,12 @@
+\title{boolean}
+\agda{
+module bool where
+}
+
+\p{Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing. Testing.}
+
+\agda{
+data Bool : Set where
+  true false : Bool
+  test'[ : Bool
+}

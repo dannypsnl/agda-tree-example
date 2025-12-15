@@ -1,2 +1,4 @@
 output/
 .envrc
+_build/
+html/

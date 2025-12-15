@@ -4,20 +4,16 @@ Instructions for `forester` v5.0, initial repository produced by command `forest
 
 ## Steps
 
-In `quark/` run
-
 ```
-agda --html --html-highlight=code bool.lagda.tree
-agda-tree build
+agda --html --html-highlight=code lagda/bool.lagda.tree
 ```
 
 Back to root of the repository
 
-- modify `forest.toml`, add `quark/trees` to `trees`
-- modify `forest.toml`, add `quark/html` to `assets`
+- modify `forest.toml`, add `html` to `trees`
 - modify `theme/tree.xsl` (see below)
 - run `forester build`
-- open `quark/bool.xml` in your browser
+- open `output/bool/bool.xml` in your browser
 
 ## Modification to `tree.xsl`
 

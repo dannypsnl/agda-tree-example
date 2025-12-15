@@ -4,11 +4,11 @@ Instructions for `forester` v5.0, initial repository produced by command `forest
 
 ## Steps
 
+In the root of the repository
+
 ```
 agda --html --html-highlight=code lagda/bool.lagda.tree
 ```
-
-Back to root of the repository
 
 - modify `forest.toml`, add `html` to `trees`
 - modify `theme/tree.xsl` (see below)

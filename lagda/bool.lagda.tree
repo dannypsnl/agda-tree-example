@@ -8,5 +8,12 @@ module bool where
 \agda{
 data Bool : Set where
   true false : Bool
-  test'[ : Bool
+}
+
+\agda{
+data Test : Set where
+  test'[ : Test
+  test'] : Test
+  test']] : Test
+  test'[] : Test
 }

@@ -15,7 +15,7 @@ agda --html --html-highlight=code lagda/bool.lagda.tree
 - run `forester build`
 - `cp html/Agda.css output/`
 - run `uv run copy-index.py`
-- open `output/bool/bool.xml` in your browser
+- open `output/bool/index.xml` in your browser
 
 ## Modification to `tree.xsl`
 
